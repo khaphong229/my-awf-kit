@@ -1,0 +1,31 @@
+# Ignore large browser profile and cache
+antigravity-browser-profile/
+antigravity/browserAllowlist.txt
+antigravity/browserOnboardingStatus.txt
+
+# Ignore databases, conversations, and context states
+antigravity/brain/
+antigravity/conversations/
+antigravity/context_state/
+antigravity/code_tracker/
+antigravity/implicit/
+
+# Ignore output artifacts and temporary files
+antigravity/browser_recordings/
+antigravity/html_artifacts/
+antigravity/playground/
+antigravity/scratch/
+
+# Ignore auto-generated machine learning/knowledge bases (may contain sensitive code from other projects)
+antigravity/knowledge/
+antigravity/annotations/
+
+# Ignore system and installation level configurations
+antigravity/installation_id
+antigravity/user_settings.pb
+antigravity/onboarding.json
+antigravity/onboarding.json.lock
+antigravity/.skill-lock.json
+
+# Ignore MCP config if it contains absolute local paths (uncomment if needed)
+antigravity/mcp_config.json
